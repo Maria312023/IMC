@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <!-- Inclusão de bibliotecas de estilos -->
+
+    <link rel="stylesheet" href="css/Calculadora de IMC.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="row">
+        <div style="text-align: center;" class="col-12">
+            <h2>CALCULADORA DE IMC</h2>
+        </div>
+        <div style="text-align: right;" class="col-12">
+            <h6>SUA SAÚDE EM 1° LUGAR</h6>
+        </div>
+    </header>
+    <main class="informações">
+        <!-- Informações-->
+        <section>
+            <div class="texto col-12">
+                <p style="font-size: 18px;">
+                    O IMC (Índice de Massa Corporal) é uma ferramenta usada para avaliar o peso ideal de um indivíduo,
+                    além de detectar casos de <br>
+                    obesidade ou desnutrição em pessoas de diferentes idades. <br>
+                    É possível encontrar o resultado do índice fazendo uma conta que envolve a relação do peso de uma
+                    pessoa em quilos com a sua <br>
+                    altura ao quadrado.<br>
+                </p>
+                <h5><b>Vamos calcular seu IMC?</b>
+                    <h5><br>
+            </div>
+        </section>
+        <section>
+            <div style="text-align: center;">
+                <form>
+                    <label><b>Peso</b></label>
+                    <input type="number" id="peso" value="0"><br><br>
+                    <label><b>Altura</b></label>
+                    <input type="number" id="altura" value="0" /><br><br>
+                </form>
+            
+                <button class="botao" onclick="calcular()"><b>CALCULAR IMC</b></button><br><br>
+                <p id="txt"> </p>
+                <p id="msg"></p>
+            </div>
+
+        </section>
+        
+        </section>
+    </main>
+    <footer class="container-fluid p-2  text-center text-white fixed-bottom">
+        <h6>&COPY;2023 - DESENVOLVIDO POR MARIA JOSÉ ARAÚJO</h6>
+    </footer>
+</body>
+<script src="js/CALCULADORA DE IMC.js"></script>
+</html>
