@@ -1,5 +1,5 @@
 header {
-    background-color: #fc64ff !important;
+    background-color: #fc64ff;
     color: white
 }
 
@@ -20,7 +20,7 @@ color: black;
 }
 
 .container-fluid{
-    background-color: #fc64ff !important;
+    background-color: #fc64ff ;
 }
 
 .botao{
@@ -29,4 +29,6 @@ color: black;
     background-color: white;
 }
 
-
+#mulher{
+    max-width: 150px;
+}
